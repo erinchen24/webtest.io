@@ -10,7 +10,7 @@
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Animate CSS -->
     <link href="vendors/animate/animate.css" rel="stylesheet">
     <!-- Icon CSS-->
@@ -23,11 +23,21 @@
     <!--Theme Styles CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <script src="https://kit.fontawesome.com/5c86f01d7b.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+        #head1 {
+            font-size: 5vh;
+            font-family: Microsoft JhengHei;
+            font-weight: 500;
+            color: #000088;
+        }
+    </style>
 </head>
 <body>
     <!-- Preloader -->
@@ -71,8 +81,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <h2>永沛科技</h2>
+                    <a class="navbar-brand" id="head1" href="index.html">
+                        永沛科技
                     </a>
                 </div>
             </div>
@@ -82,20 +92,20 @@
                 <div class="collapse navbar-collapse" id="min_navbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown submenu">
-                            <a href="p1.html">天車設計施工</a>
+                            <a href="p1.html" style="font-size:20px;">天車設計施工</a>
             
                         </li>
                         <li class="dropdown submenu">
-                            <a href="p2.html">天車維修保養</a>
+                            <a href="p2.html" style="font-size:20px;">天車維修保養</a>
             
                         </li>
                         <li class="dropdown submenu">
-                            <a href="p3.html">天車製造施工</a>
+                            <a href="p3.html" style="font-size:20px;">天車製造施工</a>
             
                         </li>
-                        <li><a href="p4.html">天車客製化</a></li>
+                        <li><a href="p4.html" style="font-size:20px;">天車客製化</a></li>
             
-                        <li><a href="contact.html">我要詢問</a></li>
+                        <li><a href="contact.html" style="font-size:20px;">我要詢問</a></li>
             
                     </ul>
                 </div>
@@ -110,8 +120,8 @@
     <section class="banner_area" data-stellar-background-ratio="0.5">
         <h2>天車維修保養</h2>
         <ol class="breadcrumb">
-            <h3 style="color: seashell">天車不能動，不用擔心！</h3><br />
-            <h3 style="color: orange">專業技師為您全台走透透</h3>
+            <h3 style="color: seashell; letter-spacing: 2.5px;">天車不能動，不用擔心！</h3><br />
+            <h3 style="color: orange; letter-spacing: 3px;">專業技師為您全台走透透</h3>
         </ol>
     </section>
     <!-- End Banner area -->
@@ -128,10 +138,10 @@
                     <div class="single_facilities col-sm-7 painting building painting adversting">
                         <div class="who_we_area">
                             <div class="subtittle">
-                                <h2>專業維修保養</h2>
+                                <h2 style="letter-spacing: 2px;">專業維修保養</h2>
                             </div>
-                            <h3>永沛科技提供天車維修保養服務</h3><br />
-                            <p>天車不能動，公司作業也停擺？不用擔心！興隆成除了天車設計製造，也提供天車定期保養及維修服務，不論原來是採用何種廠牌，永沛都能提供維修諮詢與服務，讓您用得放心用得久，全省均可配合服務，讓永沛幫您解決天車大小問題
+                            <h3 style="letter-spacing: 2px;">永沛科技提供天車維修保養服務</h3><br />
+                            <p style="font-size: 2.8vh; line-height: 36px;letter-spacing: 1.8px;">天車不能動，公司作業也停擺？不用擔心！興隆成除了天車設計製造，也提供天車定期保養及維修服務，不論原來是採用何種廠牌，永沛都能提供維修諮詢與服務，讓您用得放心用得久，全省均可配合服務，讓永沛幫您解決天車大小問題
                             </p>
                             <a href="tel:+886-935855231" class="button_all">專線：0935-855231</a>
                         </div>
@@ -152,16 +162,10 @@
     <section class="all_contact_info">
         <div class="container">
             <div class="row contact_row">
-                <div class="col-sm-6 contact_info">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.203184028387!2d120.6677843146075!3d24.164605984386792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d7e3c01db39%3A0x7affad7f1fcf492c!2zNDA05Y-w5Lit5biC5YyX5Y2A5b-g5aSq6KW_6LevNzTomZ8!5e0!3m2!1szh-TW!2stw!4v1562111757654!5m2!1szh-TW!2stw"
-                        width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-6 contact_info">
-                    <h2>與我們聯繫</h2>
-                    <p>
-                        歡迎直接來電，或加Line直接與我們
-                    </p>
+                <div class="col-sm-12 contact_info">
+                    <h1>與我們聯繫</h1></br>
+                    <h2>
+                        歡迎直接來電，或加Line直接與我們聯繫</h2>
                     <div class="location">
                         <div class="location_laft">
                             <a class="f_location" href="#"><i class="fas fa-map-marker-alt fa-3x"
@@ -224,5 +228,9 @@
     <script src="vendors/stellar/jquery.stellar.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script>
+        jQuery("#responsive_headline").fitText();
+    </script>
 </body>
 </html>
