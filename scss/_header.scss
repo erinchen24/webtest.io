@@ -4,7 +4,7 @@
   .top_nav {
     li {
       a {
-        font: 400 20px/50px $roboto;
+        font: 400 20px/50px Microsoft JhengHei "Microsoft JhengHei";
         color: #fff;
         padding: 0;
         padding-left: 30px;
@@ -108,11 +108,11 @@
       color: #fff;
       background: $bc;
       text-align: center;
-      font: 400 16px $roboto;
+      font: 400 16px "Microsoft JhengHei";
       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
         0 0 8px rgba(102, 175, 233, 0.6);
       @include placeholder {
-        font: 400 16px $roboto;
+        font: 400 16px "Microsoft JhengHei";
         color: #fff;
       }
     }
@@ -133,7 +133,7 @@
     .navbar-nav.navbar-right {
       li {
         a {
-          font: 700 20px/100px $roboto;
+          font: 700 20px/100px;
           color: $h2;
           text-transform: uppercase;
           padding: 0;
@@ -178,7 +178,7 @@
               display: block;
               a {
                 line-height: normal;
-                font: 700 14px / normal $roboto;
+                font: 700 14px / normal "Microsoft JhengHei";
                 padding: 12px 8px;
                 display: block;
               }

@@ -8,12 +8,13 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
+    font-family: "微軟正黑體", "Microsoft JhengHei";
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
 
 body {
+    font-family: "微軟正黑體", "Microsoft JhengHei";
     margin: 0
 }
 
@@ -130,7 +131,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: "Microsoft JhengHei",monospace, monospace;
     font-size: 1em
 }
 
@@ -306,7 +307,7 @@ th {
 }
 
 @font-face {
-    font-family: 'Glyphicons Halflings';
+    font-family: "Microsoft JhengHei",'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
     src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
@@ -315,7 +316,7 @@ th {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
+    font-family: "Microsoft JhengHei",'Glyphicons Halflings';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -1391,7 +1392,7 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Microsoft JhengHei,"Microsoft JhengHei","Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 1.42857143;
     color: #333;
@@ -1402,7 +1403,7 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
+    font-family: Microsoft JhengHei,"Microsoft JhengHei";
     font-size: inherit;
     line-height: inherit
 }
@@ -1507,7 +1508,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: Microsoft JhengHei,"Microsoft JhengHei";
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -1922,7 +1923,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-family:"Microsoft JhengHei", Menlo, Monaco, Consolas, "Courier New", monospace
 }
 
 code {
@@ -7169,7 +7170,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft JhengHei","Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -7303,7 +7304,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'微軟正黑體',"Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -7609,7 +7610,7 @@ button.close {
 .carousel-control .icon-prev {
     width: 20px;
     height: 20px;
-    font-family: serif;
+    font-family: "Microsoft JhengHei";
     line-height: 1
 }
 

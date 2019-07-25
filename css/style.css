@@ -153,14 +153,14 @@ This files contents are outlined below.
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "微軟正黑體", "Microsoft JhengHei";
   /*Section Fix*/
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   margin: 0;
 }
 body p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "微軟正黑體", "Microsoft JhengHei";
   line-height: 26px;
   color: #555555;
   margin: 0;
@@ -1085,7 +1085,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 10px;
 }
 .our_achievments_area .achievments_row .completed .counter {
-  font: 700 40px "Roboto", sans-serif;
+  font: 700 40px "Roboto", "微軟正黑體", "Microsoft JhengHei";
   color: #f6b60b;
   display: block;
   padding-top: 23px;
